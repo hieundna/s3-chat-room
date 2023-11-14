@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import socketIOClient from "socket.io-client";
 import "./styles/index.scss";
 
-const host = "192.168.1.8:3000";
+const host =
+  "https://chat-room-ob19jmg4n-hieu-nguyens-projects-9bc66264.vercel.app";
 
 function App() {
   const [name, setName] = useState("");
